@@ -1,9 +1,0 @@
-version: "3.9" # optional since v1.27.0
-services:
-    next:
-        build: .
-        ports:
-            - "5000:3000"
-        container_name: next-dockerized
-        environment:
-            SOME_SECRET: scecret-from-docker
